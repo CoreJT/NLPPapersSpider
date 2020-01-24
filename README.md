@@ -20,7 +20,9 @@
 python spider.py spider  #此时将使用config.py中的默认配置
 
 可以在config.py中修改配置，再次运行上面的命令。也可以在命令行传入新的参数对其进行覆盖：
+
 #爬取ACL系列会议论文(ACL、EMNLP、COLING、NAACL、EACL、CoNLL等等) 
+
 #爬取ACL
 
 python spider.py spider --spiderTool='ACLSeries' --Keywords=['dialog','conversation','chatbot'] --Years=[2016,2017,2018,2019] --Field='对话' --Meeting='ACL' --path='/Users/apple/Desktop' 
@@ -30,10 +32,12 @@ python spider.py spider --spiderTool='ACLSeries' --Keywords=['dialog','conversat
 python spider.py spider --spiderTool='ACLSeries' --Keywords=['dialog','conversation','chatbot'] --Years=[2016,2017,2018,2019] --Field='对话' --Meeting='EMNLP' --path='/Users/apple/Desktop' 
  
 #爬取AAAI会议论文
+
 python spider.py spider --spiderTool='AAAI' --Keywords=['dialog','conversation','chatbot'] --Years=[2016,2017,2018,2019] --Field='对话' --Meeting='AAAI' --path='/Users/apple/Desktop' 
  
  
 #爬取IJCAI会议论文
+
 python spider.py spider --spiderTool='IJCAI' --Keywords=['dialog','conversation','chatbot'] --Years=[2016,2017,2018,2019] --Field='对话' --Meeting='IJCAI' --path='/Users/apple/Desktop' 
 
 
